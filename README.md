@@ -57,5 +57,6 @@ reproduces the results in the report.
 - **Part 1 – Variation across 30 random splits:** mean ± std compared with the paper
 - **Part 1 – Figures and seen/unseen analysis:** confusion matrices, ROC curves, feature importance, accuracy on seen vs unseen test records
 - **Part 2 – Proposed pipeline:** deduplication, in-fold imputation and encoding, regularised stacking, repeated stratified CV, Wilcoxon and corrected t-tests
+- **Part 2 – Stepwise ablation:** adds each model change to the paper's stacking one at a time, with corrected t-tests between steps (Table 8)
 - **Part 2 – Figures:** fold-level boxplots and headline accuracy comparison
 - **Environment:** package versions
